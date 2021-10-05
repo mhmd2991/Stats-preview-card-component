@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
@@ -41,6 +38,7 @@ body {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    color: var(--whiteColor);
 }
 
 .container .card {
@@ -58,7 +56,6 @@ body {
 }
 
 .container .box-text h1 {
-    color: var(--whiteColor);
     font-size: 1.9em;
     margin-bottom: 20px;
     letter-spacing: 0.5px;
@@ -81,7 +78,6 @@ body {
 }
 
 .container .stats .stat-box .stat-num {
-    color: var(--whiteColor);
     font-weight: 700;
     font-size: 1.4em;
 }
@@ -150,6 +146,7 @@ body {
     }
 
     .container .box-img {
+        max-width: 50%;
         order: 2;
     }
 
